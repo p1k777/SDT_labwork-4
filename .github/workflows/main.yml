@@ -38,5 +38,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
+      - uses: actions/checkout@v4
+
       - name: Tests
-        run: python3.exe -m unittest tests
+        run: python3.exe -m unittest tests.py
