@@ -39,4 +39,4 @@ jobs:
 
     steps:
       - name: Tests
-        run: python3.exe -m unittest tests.py
+        run: python3.exe -m unittest ./tests.py
